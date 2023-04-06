@@ -1,0 +1,34 @@
+
+.underlineHover{
+position: relative;
+}
+
+.underlineHover:after{
+    content: "";
+    position: absolute;
+    background-color: #1eacc7;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s ;
+}
+.underlineHover:hover{
+    color: gray;
+}
+.underlineHover:hover::after{
+    width: 100%;
+}
+
+.navbarbg{
+    background-color: #199EB8;
+    transition: all 0.3s ease-in-out;
+}
+.navbarscrollBg{
+    background-color: #199EB8;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    padding: 5px;
+
+}

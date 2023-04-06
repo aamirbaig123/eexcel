@@ -1,0 +1,17 @@
+.Container{
+    width: 40%;
+    height: 400px;
+
+}
+.Image{
+width: 200%;
+}
+.Overlay{
+
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+}
+.Content:hover .overlay{
+    opacity: 0.8;
+}
